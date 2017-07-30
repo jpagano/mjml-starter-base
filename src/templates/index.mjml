@@ -1,0 +1,51 @@
+{% extends "default.mjml" %}
+
+{% block title %} {{ index_title }} {% endblock %}
+{% block preheader %} {{ index_description }} {% endblock %}
+
+{% block content %}
+
+	<mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
+		<mj-column>
+
+			<mj-text
+				align="center"
+				font-size="30px"
+				font-weight="bold">{{ index_title }}</mj-text>
+			<mj-text align="center">{{ index_description }}</mj-text>
+
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#fafafa" padding-top="90px" padding-bottom="90px">
+		<mj-column>
+
+			<mj-image
+				href="examples/basic.html"
+				src="https://cloud.githubusercontent.com/assets/6558790/12779864/d9c20556-ca6a-11e5-9007-d40ac89c5088.png" />
+			<mj-text align="center">Basic template</mj-text>
+
+		</mj-column>
+		<mj-column>
+
+			<mj-image
+				href="examples/newsletter.html"
+				src="https://cloud.githubusercontent.com/assets/6558790/12789753/6fd35f3e-ca9f-11e5-8ff0-a1e090a9bede.png" />
+			<mj-text align="center" padding-top="30px">Newsletter template</mj-text>
+
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#f0f0f0">
+		<mj-column>
+
+			<mj-social
+				mode="horizontal"
+				display="twitter facebook"
+				twitter-href="https://github.com/jpagano/mjml-starter-base"
+				facebook-href="https://github.com/jpagano/mjml-starter-base" />
+
+		</mj-column>
+	</mj-section>
+
+{% endblock %}

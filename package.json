@@ -1,0 +1,38 @@
+{
+  "name": "mjml-starter-base",
+  "version": "1.0.0",
+  "description": "Starter base for Email templating with Gulp, MJML and Nunjucks",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpagano/mjml-starter-base.git"
+  },
+  "keywords": [
+    "mjml",
+    "gulp",
+    "nunjucks",
+    "browsersync"
+  ],
+  "author": "J.Pagano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpagano/mjml-starter-base/issues"
+  },
+  "homepage": "https://github.com/jpagano/mjml-starter-base#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "fs": "0.0.1-security",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-data": "^1.2.1",
+    "gulp-mjml": "^2.2.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "js-yaml": "^3.9.0",
+    "mjml": "^3.3.3",
+    "path": "^0.12.7",
+    "rimraf": "^2.6.1"
+  }
+}

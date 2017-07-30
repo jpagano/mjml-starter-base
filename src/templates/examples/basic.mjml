@@ -1,0 +1,67 @@
+{% extends "default.mjml" %}
+
+{% block title %}Basic template - MJML Starter Base{% endblock %}
+{% block preheader %}Starter base for Email templating with Gulp, MJML and Nunjucks{% endblock %}
+
+{% block containerbackground %}background-color="#C2C2C2"{% endblock %}
+
+{% block content %}
+
+	<!-- Header -->
+	<mj-include path="./src/partials/basic-header"></mj-include>
+
+	<!-- Intro text -->
+	<mj-section background-color="#fafafa">
+		<mj-column width="400">
+
+			<mj-text font-style="italic" font-size="20" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
+
+			<mj-text color="#525252">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget
+				nulla elit. Nulla aliquet mollis faucibus.
+			</mj-text>
+
+			<mj-button background-color="#F45E43" href="#">Learn more</mj-button>
+
+		</mj-column>
+	</mj-section>
+
+	<!-- Side image -->
+	<mj-section background-color="white">
+
+		<!-- Left image -->
+		<mj-column>
+			<mj-image width="200" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+		</mj-column>
+
+		<!-- right paragraph -->
+		<mj-column>
+			<mj-text font-style="italic" font-size="20" font-family="Helvetica Neue" color="#626262">
+				Find amazing places
+			</mj-text>
+
+			<mj-text color="#525252">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<!-- Icons -->
+	<mj-section background-color="#fbfbfb">
+		<mj-column>
+			<mj-image width="100" src="http://191n.mj.am/img/191n/3s/x0l.png" />
+		</mj-column>
+		<mj-column>
+			<mj-image width="100" src="http://191n.mj.am/img/191n/3s/x01.png" />
+		</mj-column>
+		<mj-column>
+			<mj-image width="100" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#e7e7e7">
+		<mj-column>
+			<mj-social display="facebook" />
+		</mj-column>
+	</mj-section>
+
+{% endblock %}
