@@ -28,11 +28,11 @@
     "fs": "0.0.1-security",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-data": "^1.2.1",
-    "gulp-mjml": "^2.2.0",
+    "gulp-mjml": "^2.3.0",
     "gulp-nunjucks-render": "^2.2.1",
-    "js-yaml": "^3.9.0",
-    "mjml": "^3.3.3",
+    "js-yaml": "^3.10.0",
+    "mjml": "^3.3.5",
     "path": "^0.12.7",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.2"
   }
 }
