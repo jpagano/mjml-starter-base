@@ -8,7 +8,7 @@
 {% block content %}
 
 	<!-- Header -->
-	<mj-include path="./src/partials/basic-header"></mj-include>
+	{% include "basic-header.mjml" %}
 
 	<!-- Intro text -->
 	<mj-section background-color="#fafafa">

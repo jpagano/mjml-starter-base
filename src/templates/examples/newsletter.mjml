@@ -8,7 +8,7 @@
 {% block content %}
 
 	<!-- Header -->
-	<mj-include path="./src/partials/newsletter-header"></mj-include>
+	{% include "newsletter-header.mjml" %}
 
 	<!-- Article -->
 	<mj-section background-color="white">
