@@ -14,9 +14,7 @@
 	</mj-head>
 	<mj-body>
 		<mj-container {% block containerbackground %}{% endblock %}>
-
-			{% block content %}{% endblock %}
-
+		    {% block content %}{% endblock %}
 		</mj-container>
 	</mj-body>
 </mjml>
