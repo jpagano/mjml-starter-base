@@ -1,6 +1,6 @@
 {
   "name": "mjml-starter-base",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Starter base for Email templating with Gulp, MJML and Nunjucks",
   "main": "gulpfile.js",
   "scripts": {
