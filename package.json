@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/jpagano/mjml-starter-base#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "browser-sync": "^2.18.13",
     "fs": "0.0.1-security",
     "gulp": "gulpjs/gulp#4.0",
