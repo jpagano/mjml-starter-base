@@ -60,10 +60,16 @@ export function buildMjml() {
 }
 
 export function server(done) {
-  browser.init({
-    server: PATHS.dist,
-    port: '8000'
-  });
+  const options = {
+    server: {
+      baseDir: PATHS.dist,
+      directory: true
+    },
+    port: '8000',
+    notify: false
+  };
+
+  browser.init(options);
   done();
 }
 
