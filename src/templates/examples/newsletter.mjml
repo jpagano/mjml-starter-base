@@ -16,10 +16,10 @@
 			<mj-image src="https://mjml.io/assets/img/responsive.png" width="100" />
 		</mj-column>
 		<mj-column width="350">
-			<mj-text align="left" font-size="20" color="grey">
+			<mj-text align="left" font-size="20px" color="grey">
 				Sed ut perspiciatis
 			</mj-text>
-			<mj-text align="left" color="grey">
+			<mj-text align="left" color="grey" font-size="16px" line-height="18px">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
 			</mj-text>
 		</mj-column>
@@ -28,7 +28,7 @@
 	<!-- Editor -->
 	<mj-section padding-bottom="0" background-color="#f3f3f3">
 		<mj-column>
-			<mj-text align="center" font-size="20" color="rgb(165, 176, 184)">
+			<mj-text align="center" font-size="20px" color="rgb(165, 176, 184)">
 				Explore our new features
 			</mj-text>
 		</mj-column>
@@ -45,10 +45,10 @@
 			<mj-image src="https://mjml.io/assets/img/easy-and-quick.png" width="100" />
 		</mj-column>
 		<mj-column width="350">
-			<mj-text align="left" font-size="20" color="grey">
+			<mj-text align="left" font-size="20px" color="grey">
 				Right on time!
 			</mj-text>
-			<mj-text align="left" color="grey">
+			<mj-text align="left" color="grey" font-size="16px" line-height="18px">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
 			</mj-text>
 		</mj-column>
@@ -57,7 +57,14 @@
 	<mj-section background-color="#f3f3f3">
 		<mj-column>
 			<mj-text align="center">Stay in touch!</mj-text>
-			<mj-social mode="vertical" display="twitter facebook" />
+			<mj-social mode="vertical">
+				<mj-social-element name="twitter" href="https://mjml.io/">
+					Twitter
+				</mj-social-element>
+				<mj-social-element name="facebook" href="https://mjml.io/">
+					Facebook
+				</mj-social-element>
+			</mj-social>
 		</mj-column>
 	</mj-section>
 

@@ -1,18 +1,27 @@
 <!-- Company Header -->
 <mj-section background-color="#f0f0f0">
 	<mj-column>
-		<mj-text font-style="italic" font-size="20" color="#626262">
+		<mj-text align="center" font-style="italic" font-size="20px" color="#626262">
 			My Company
 		</mj-text>
 	</mj-column>
 </mj-section>
 
 <!-- Image Header -->
-<mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
+<mj-section
+	background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+	background-size="cover"
+	background-repeat="no-repeat"
+	padding="80px 0 20px">
 
 	<mj-column width="600">
 
-		<mj-text align="center" color="#fff" font-size="40" font-family="Helvetica Neue">Slogan here</mj-text>
+		<mj-text
+			align="center"
+			color="#fff"
+			font-size="40px"
+			font-family="Helvetica Neue"
+			padding-bottom="40px">Slogan here</mj-text>
 
 		<mj-button background-color="#F63A4D" href="#">
 			Promotion

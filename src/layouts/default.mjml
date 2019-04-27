@@ -12,9 +12,7 @@
 			}
 		</mj-style>
 	</mj-head>
-	<mj-body>
-		<mj-container {% block containerbackground %}{% endblock %}>
-		    {% block content %}{% endblock %}
-		</mj-container>
+	<mj-body {% block containerbackground %}{% endblock %}>
+		{% block content %}{% endblock %}
 	</mj-body>
 </mjml>
