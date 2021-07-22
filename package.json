@@ -33,7 +33,7 @@
     "gulp-mjml": "^4.0.2",
     "gulp-nunjucks-render": "^2.2.3",
     "js-yaml": "^3.13.1",
-    "mjml": "^4.6.2",
+    "mjml": "^4.10.2",
     "rimraf": "^3.0.2"
   }
 }
